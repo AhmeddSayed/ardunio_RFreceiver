@@ -72,7 +72,7 @@ void loop(void)
 				regex = i;
 			} else {
 				// concatinate the new byte to the temperature variable
-			  Temp.concat(data[i]);
+			  	Temp.concat(data[i]);
 			}
 		  } else {
 			if(!data[i]){
